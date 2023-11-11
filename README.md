@@ -1,7 +1,3 @@
-Sure, here's how you could structure a README document for the provided code, which appears to be a Python script for generating a concept paper using OpenAI's GPT-3.5 model:
-
-markdown
-Copy code
 # Concept Paper Generator
 
 This script is designed to assist users in creating concept papers for their projects using OpenAI's GPT-3.5 model. The program leverages a GUI prompt to gather user input on their project idea and generates a concept paper with a structured outline including an introduction, problem statement, objectives, and more.
