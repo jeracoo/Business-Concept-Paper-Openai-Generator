@@ -10,7 +10,7 @@ import os  # To access environment variable for API key
 # Function to set up the OpenAI client
 # (API Key should be set as an environment variable for security reasons)
 def setup_openai_client():
-    openai.api_key = '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'  # Replace 'your-api-key-here' with your actual OpenAI API key
+    openai.api_key = 'XXXXXXXX'  # Replace 'your-api-key-here' with your actual OpenAI API key
     return openai
 
 
