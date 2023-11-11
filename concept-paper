@@ -10,7 +10,7 @@ import os  # To access environment variable for API key
 # Function to set up the OpenAI client
 # (API Key should be set as an environment variable for security reasons)
 def setup_openai_client():
-    openai.api_key = 'XXXXXXXX'  # Replace 'your-api-key-here' with your actual OpenAI API key
+    openai.api_key = 'sk-XXXXXXXXXXXX'  # Replace 'your-api-key-here' with your actual OpenAI API key
     return openai
 
 
@@ -114,7 +114,7 @@ concept_name = user_input
 if user_input:
     # Create a new Word document
     doc = Document()
-    doc.add_heading('Concept Paper n', 0)
+    doc.add_heading('Concept Paper', 0)
 
     # Add the user input as the introduction or overview
     doc.add_heading('Overview', level=1)
